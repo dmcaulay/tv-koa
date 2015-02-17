@@ -8,7 +8,7 @@
 *.rdb
 *.DS_Store
 .bundle
-.env
+.env**
 
 pids
 logs
