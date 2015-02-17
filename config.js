@@ -1,5 +1,12 @@
+var _ = require('underscore');
+
+var required = [ 'TV_PORT' ];
+required.forEach(function(r) {
+  if (process.env[r] === undefined) throw (r + " is not defined");
+});
+
 module.exports = {
-  port: process.env.TV_PORT || 3000,
+  port: process.env.TV_PORT,
   logging: {
     level: 'info',
     levels: {
@@ -14,4 +21,4 @@ module.exports = {
     colorize: true,
     timestamp: true
   }
-}
+};
