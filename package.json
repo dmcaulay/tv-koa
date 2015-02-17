@@ -1,0 +1,22 @@
+{
+  "name": "tv-koa",
+  "version": "1.0.0",
+  "description": "track tv shows",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --harmony app.js"
+  },
+  "keywords": [
+    "tv",
+    "koa"
+  ],
+  "author": "Dan McAulay",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^0.5.1",
+    "koa": "^0.18.0",
+    "underscore": "^1.7.0",
+    "winston": "^0.9.0"
+  }
+}
